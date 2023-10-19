@@ -11,7 +11,7 @@ commonLabels:
 # replace the image tag of the container with latest
 images:
 - name: image-registry.openshift-image-registry.svc:5000/book-dev/person-service:latest
-  newName: quay.io/wpernath/person-service  
+  newName: quay.io/p_caldwell/person-service  
 
 # generate a configmap 
 configMapGenerator:
